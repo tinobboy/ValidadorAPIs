@@ -12,34 +12,34 @@ helpers/TipoDescripcionParametros.java
  helpers.TipoDescripcionParametros
 helpers/TipoParametro.java
  helpers.TipoParametro
-core/PandoraSoapRequest.java
- core.PandoraSoapRequest
 helpers/ConfiguracionException.java
  helpers.ConfiguracionException
-core/PandoraRequest.java
- core.PandoraRequest
-readers/PropertiesReader.java
- readers.PropertiesReader
 configuraciones/Configuracion.java
  configuraciones.Configuracion
+steps/RequestSteps.java
+ steps.RequestSteps
 listeners/TestReporterEventListener.java
  listeners.TestReporterEventListener
 constants/TipoError.java
  constants.TipoError
+core/SoapResponseSpecification.java
+ core.SoapResponseSpecification
 listeners/StepReporterEventListener.java
  listeners.StepReporterEventListener
 constants/RequestHeaders.java
  constants.RequestHeaders
-core/PandoraResponse.java
- core.PandoraResponse
+core/RequestSpecification.java
+ core.RequestSpecification
 helpers/LoggerHelper.java
  helpers.LoggerHelper
 helpers/AllureHelper.java
  helpers.AllureHelper
 constants/RequestContentType.java
  constants.RequestContentType
-helpers/JsonNodeHelper.java
- helpers.JsonNodeHelper
+core/ResponseSpecification.java
+ core.ResponseSpecification
+helpers/ConfigHelper.java
+ helpers.ConfigHelper
 helpers/MapperHelper.java
  helpers.MapperHelper
 helpers/StringHelper.java
@@ -49,11 +49,11 @@ configuraciones/Servicio.java
 constants/HTTPCodes.java
  constants.HTTPCodes
  constants.HTTPCodes$Codes
-core/PandoraSoapResponse.java
- core.PandoraSoapResponse
 helpers/PropertiesHelper.java
  helpers.PropertiesHelper
-helpers/ConfigHelper.java
- helpers.ConfigHelper
-steps/RequestSteps.java
- steps.RequestSteps
+core/SoapRequestSpecification.java
+ core.SoapRequestSpecification
+readers/PropertiesReader.java
+ readers.PropertiesReader
+helpers/JsonNodeHelper.java
+ helpers.JsonNodeHelper
