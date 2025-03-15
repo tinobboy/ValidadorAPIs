@@ -22,7 +22,7 @@ src/test/resources/features        # Contiene los test de los escenarios escrito
 
 
 ## Cómo ejecutar los tests en IntelliJ IDEA
-1. clonar el proyecto en git bash con el comando "git clone https://github.com/tinobboy/ValidadorAPIs.git"
+1. clonar el proyecto copiando este codigo en una consola de comando "git clone https://github.com/tinobboy/ValidadorAPIs.git"
    
 3. Configurar el proyecto en IntelliJ IDEA
 - Abre IntelliJ IDEA.
