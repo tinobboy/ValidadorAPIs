@@ -24,33 +24,33 @@ public class RickAndMortySteps {
     private int id;
 
     @Before("@test")
-    public void beforeScenario(){
+    public void beforeScenario() {
         requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
     }
 
     @Dado("^una url completa del personaje (.*)$")
     public void unaUrlCompletaDelPersonajeMorty(String personaje) {
 
-        switch (personaje){
+        switch (personaje) {
             case "Rick Sanchez":
                 id = DatosPersonajes.Personajes.Rick_Sanchez.getId();
-                requestSpecification.setPaths("/character/"+id+"");
+                requestSpecification.setPaths("/character/" + id + "");
                 break;
             case "Morty Smith":
                 id = DatosPersonajes.Personajes.Morty_Smith.getId();
-                requestSpecification.setPaths("/character/"+id+"");
+                requestSpecification.setPaths("/character/" + id + "");
                 break;
             case "Summer Smith":
                 id = DatosPersonajes.Personajes.Summer_Smith.getId();
-                requestSpecification.setPaths("/character/"+id+"");
+                requestSpecification.setPaths("/character/" + id + "");
                 break;
             case "Beth Smith":
                 id = DatosPersonajes.Personajes.Beth_Smith.getId();
-                requestSpecification.setPaths("/character/"+id+"");
+                requestSpecification.setPaths("/character/" + id + "");
                 break;
             case "Jerry Smith":
                 id = DatosPersonajes.Personajes.Jerry_Smith.getId();
-                requestSpecification.setPaths("/character/"+id+"");
+                requestSpecification.setPaths("/character/" + id + "");
                 break;
         }
 
@@ -69,7 +69,7 @@ public class RickAndMortySteps {
     @Entonces("^el resultado fue exitoso$")
     public void elResultadoFueExitoso() {
         step.validateResponseCodeyContentType(respuestaActual, 200, ContentType.JSON);
-        new ValidarCaracteres().validar(respuestaActual.getBody(),id);
+        new ValidarCaracteres().validar(respuestaActual.getBody(), id);
     }
 
     @Entonces("^se obtiene los personajes que aparecieron en el episodio 1 y se imprime el nombre$")
@@ -84,26 +84,27 @@ public class RickAndMortySteps {
             idPersonaje.add(ultimoNumero);
         }
 
-        for (int x=0; x<idPersonaje.size();x++){
-            if (DatosPersonajes.Personajes.Rick_Sanchez.getId()==idPersonaje.get(x)){
+        for (int x = 0; x < idPersonaje.size(); x++) {
+            if (DatosPersonajes.Personajes.Rick_Sanchez.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Rick_Sanchez.getName());
-            }else if (DatosPersonajes.Personajes.Morty_Smith.getId()==idPersonaje.get(x)){
+            } else if (DatosPersonajes.Personajes.Morty_Smith.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Morty_Smith.getName());
-            }else if (DatosPersonajes.Personajes.Beth_Smith.getId()==idPersonaje.get(x)){
+            } else if (DatosPersonajes.Personajes.Beth_Smith.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Beth_Smith.getName());
-            }else if (DatosPersonajes.Personajes.Jerry_Smith.getId()==idPersonaje.get(x)){
+            } else if (DatosPersonajes.Personajes.Jerry_Smith.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Jerry_Smith.getName());
-            }else if (DatosPersonajes.Personajes.Bepisian.getId()==idPersonaje.get(x)){
+            } else if (DatosPersonajes.Personajes.Bepisian.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Bepisian.getName());
-            }else if (DatosPersonajes.Personajes.Canklanker_Thom.getId()==idPersonaje.get(x)){
+            } else if (DatosPersonajes.Personajes.Canklanker_Thom.getId() == idPersonaje.get(x)) {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Canklanker_Thom.getName());
             }
         }
-        Allure.addAttachment("Los Personajes que se encuentran en el episodio 1 son :" , String.valueOf(nombresDePersonajes));
+        Allure.addAttachment("Los Personajes que se encuentran en el episodio 1 son :", String.valueOf(nombresDePersonajes));
         System.out.println(nombresDePersonajes);
     }
 
-    /** Método para extraer el último número de una URL
+    /**
+     * Método para extraer el último número de una URL
      **/
     private static int extraerUltimoNumero(String url) {
         String[] partes = url.split("/");
