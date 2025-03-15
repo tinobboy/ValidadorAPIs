@@ -5,7 +5,7 @@ Este es un framework para realizar pruebas de backend desarrollado en **Java** u
 
 > [!IMPORTANT]
 >## Prerequisitos
->Antes de comenzar, asegúrate de tener instalado lo siguiente:
+>Antes de comenzar, asegúrate de tener instalado y agregado a variables de entorno lo siguiente:
 > 
 >  **Java 11 JDK**: El framework está desarrollado en Java, por lo que necesitas tener instalado el JDK 11.
 > 

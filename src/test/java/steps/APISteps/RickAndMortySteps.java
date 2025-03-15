@@ -37,6 +37,16 @@ public class RickAndMortySteps {
                 requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
                 requestSpecification.setPaths("/character/"+id+"");
                 break;
+            case "Beth Smith":
+                id = DatosPersonajes.Personajes.Beth_Smith.getId();
+                requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
+                requestSpecification.setPaths("/character/"+id+"");
+                break;
+            case "Jerry Smith":
+                id = DatosPersonajes.Personajes.Jerry_Smith.getId();
+                requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
+                requestSpecification.setPaths("/character/"+id+"");
+                break;
         }
 
     }

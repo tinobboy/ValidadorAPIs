@@ -43,6 +43,17 @@ public class ValidarCaracteres {
                         .compararCampoString("name", DatosPersonajes.Personajes.Summer_Smith.getOrigin_name())
                         .compararCampoString("url", DatosPersonajes.Personajes.Summer_Smith.getOrigin_url());
                 break;
+            case 4:
+                validadorPostcondicion.compararCampoNumber("id", id)
+                        .compararCampoString("name", DatosPersonajes.Personajes.Beth_Smith.getName())
+                        .compararCampoString("status", DatosPersonajes.Personajes.Beth_Smith.getStatus())
+                        .compararCampoString("species", DatosPersonajes.Personajes.Beth_Smith.getSpecies())
+                        .compararCampoString("type", DatosPersonajes.Personajes.Beth_Smith.getType())
+                        .compararCampoString("gender", DatosPersonajes.Personajes.Beth_Smith.getGender());
+                new ValidadorPostcondicion(body.get("origin"))
+                        .compararCampoString("name", DatosPersonajes.Personajes.Beth_Smith.getOrigin_name())
+                        .compararCampoString("url", DatosPersonajes.Personajes.Beth_Smith.getOrigin_url());
+                break;
         }
     }
 }

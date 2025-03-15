@@ -12,3 +12,5 @@ Característica: Rick and Morty Test
     |Rick Sanchez|
     |Morty Smith |
     |Summer Smith|
+    |Beth Smith  |
+    |Jerry Smith |
