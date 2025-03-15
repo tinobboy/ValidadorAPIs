@@ -1,21 +1,29 @@
-# Ignorar archivos de resultados de Allure
-build/allure-results/
-build/reports/
-build/test-results/
-
-# Ignorar archivos temporales de construcción
-build/classes/
-build/tmp/
-
-# Ignorar archivos generados por Gradle
+# Ignorar archivos de Gradle
 .gradle/
 gradle-app.setting
+!gradle-wrapper.jar
+
+# Ignorar archivos de construcción y compilación
 build/
 !gradle-wrapper.jar
 
-# Ignorar archivos de configuración local (si los hay)
+# Ignorar archivos de resultados de pruebas
+build/allure-results/
+build/reports/
+build/test-results/
+build/tmp/
+
+# Ignorar archivos compilados
+**/*.class
+
+# Ignorar archivos de IntelliJ IDEA
 .idea/
 *.iml
+
+# Ignorar archivos de registro y temporales
 *.log
 *.swp
-*.class
+
+# Ignorar archivos de configuración local
+*.properties
+*.env
