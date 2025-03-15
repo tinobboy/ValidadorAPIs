@@ -13,9 +13,9 @@ public class DatosPersonajes {
         Morty_Smith(2,"Morty Smith","Alive", "Human", "", "Male", "unknown", ""),
         Summer_Smith(3,"Summer Smith","Alive", "Human", "", "Female", "Earth (Replacement Dimension)", "https://rickandmortyapi.com/api/location/20"),
         Beth_Smith(4,"Beth Smith","Alive", "Human", "", "Female", "Earth (Replacement Dimension)", "https://rickandmortyapi.com/api/location/20"),
-        Jerry_Smith(5,"Jerry Smith","Alive", "Human", "", "Male", "Earth (Replacement Dimension)", "https://rickandmortyapi.com/api/location/20");
-
-
+        Jerry_Smith(5,"Jerry Smith","Alive", "Human", "", "Male", "Earth (Replacement Dimension)", "https://rickandmortyapi.com/api/location/20"),
+        Bepisian(35,"Bepisian","Alive", "Alien", "Bepisian", "unknown", "Bepis 9", "https://rickandmortyapi.com/api/location/11"),
+        Canklanker_Thom(62,"Canklanker Thom","Dead", "Alien", "Gromflomite", "Male", "Gromflom Prime", "https://rickandmortyapi.com/api/location/19");
 
         private int id;
         private String name;
