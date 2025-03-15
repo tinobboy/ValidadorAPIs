@@ -3,6 +3,7 @@ package steps.APISteps;
 import constants.RequestMethods;
 import core.RequestSpecification;
 import core.ResponseSpecification;
+import enums.DatosPersonajes;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
@@ -17,18 +18,27 @@ public class RickAndMortySteps {
     private RequestSpecification requestSpecification;
     private int id;
 
-    @Dado("^una url completa del personaje Morty$")
-    public void unaUrlCompletaDelPersonajeMorty() {
-        id=2;
-        requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
-        requestSpecification.setPaths("/character/"+id+"");
-    }
+    @Dado("^una url completa del personaje (.*)$")
+    public void unaUrlCompletaDelPersonajeMorty(String personaje) {
 
-    @Dado("^una url completa del personaje Rick$")
-    public void unaUrlCompletaDelPersonajeRick() {
-        id=1;
-        requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
-        requestSpecification.setPaths("/character/"+id+"");
+        switch (personaje){
+            case "Rick Sanchez":
+                id = DatosPersonajes.Personajes.Rick_Sanchez.getId();
+                requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
+                requestSpecification.setPaths("/character/"+id+"");
+                break;
+            case "Morty Smith":
+                id = DatosPersonajes.Personajes.Morty_Smith.getId();
+                requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
+                requestSpecification.setPaths("/character/"+id+"");
+                break;
+            case "Summer Smith":
+                id = DatosPersonajes.Personajes.Summer_Smith.getId();
+                requestSpecification = new RequestSpecification("https://rickandmortyapi.com/api", RequestMethods.GET);
+                requestSpecification.setPaths("/character/"+id+"");
+                break;
+        }
+
     }
 
     @Cuando("^se ejecuta el request$")
