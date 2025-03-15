@@ -26,7 +26,10 @@ framework/ResponseSpecificationTest.java
  framework.ResponseSpecificationTest
 framework/JsonHelperTest.java
  framework.JsonHelperTest
-steps/APISteps/ValidarCaracteres.java
- steps.APISteps.ValidarCaracteres
+enums/DatosPersonajes.java
+ enums.DatosPersonajes
+ enums.DatosPersonajes$Personajes
 steps/APISteps/RickAndMortySteps.java
  steps.APISteps.RickAndMortySteps
+steps/APISteps/ValidarCaracteres.java
+ steps.APISteps.ValidarCaracteres
