@@ -17,9 +17,10 @@ Este es un framework para realizar pruebas de backend desarrollado en **Java** u
 
 
 ## Estructura del proyecto:
+src/test/resources/features -----> Contiene los test de los escenarios escritos en cucumber
+
 src/test/java/steps/APISteps ----> Contiene los steps excecutions y validaciones de los escenarios escritos en cucumber
 
-src/test/resources/features -----> Contiene los test de los escenarios escritos en cucumber
 
 
 ## Cómo ejecutar los tests en IntelliJ IDEA
