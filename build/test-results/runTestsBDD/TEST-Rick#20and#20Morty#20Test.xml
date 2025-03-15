@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Rick and Morty Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-15T14:22:11" hostname="DESKTOP-V0MFHDL" time="3.272">
+<testsuite name="Rick and Morty Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-15T14:26:32" hostname="DESKTOP-V0MFHDL" time="3.411">
   <properties/>
-  <testcase name="Se prueba el funcionamiento de una API del personaje Rick Sanchez" classname="Rick and Morty Test" time="2.661"/>
-  <testcase name="Se prueba el funcionamiento de una API del personaje Morty Smith" classname="Rick and Morty Test" time="0.262"/>
-  <testcase name="Se prueba el funcionamiento de una API del personaje Summer Smith" classname="Rick and Morty Test" time="0.347"/>
+  <testcase name="Se prueba el funcionamiento de una API del personaje Rick Sanchez" classname="Rick and Morty Test" time="2.881"/>
+  <testcase name="Se prueba el funcionamiento de una API del personaje Morty Smith" classname="Rick and Morty Test" time="0.265"/>
+  <testcase name="Se prueba el funcionamiento de una API del personaje Summer Smith" classname="Rick and Morty Test" time="0.262"/>
   <system-out><![CDATA[Request method:	GET
 Request URI:	https://rickandmortyapi.com/api/character/1
 Proxy:			<none>
@@ -248,8 +248,8 @@ Body:			<none>
     "created": "2017-11-04T19:09:56.428Z"
 }
 ]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:22:12 |||
-[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:22:14 |||
-[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:22:14 |||
+  <system-err><![CDATA[[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:26:33 |||
+[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:26:35 |||
+[Test worker] INFO steps.RequestSteps - ||| Sending request at 2025/03/15 11:26:35 |||
 ]]></system-err>
 </testsuite>

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="* Agrego enum con datos de la API&#10;* Unifico features en un esquema de escenario&#10;* Modifico Postcondicion">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" afterDir="false" />
-    </list>
+    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="* Agrego enum con datos de la API&#10;* Unifico features en un esquema de escenario&#10;* Modifico Postcondicion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
