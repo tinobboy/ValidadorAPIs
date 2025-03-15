@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="* Agrego enum con datos de la API&#10;* Unifico features en un esquema de escenario&#10;* Modifico Postcondicion" />
+    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="* Agrego enum con datos de la API&#10;* Unifico features en un esquema de escenario&#10;* Modifico Postcondicion">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +98,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TestsBDD">
     <configuration name="TestsBDD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,9 +120,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ValidadorAPIs [allureServe]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestsBDD" />
         <item itemvalue="Gradle.TestsBDD" />
         <item itemvalue="Gradle.TestsBDD" />
         <item itemvalue="Gradle.TestsBDD" />
