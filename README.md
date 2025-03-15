@@ -16,10 +16,9 @@ Este es un framework para realizar pruebas de backend desarrollado en **Java** u
 > Documentacion BackEnd: [https://rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation/#character-schema)
 
 
-Estructura del proyecto
-src/
-├── test/java/steps/APISteps       # Steps excecutions y validaciones de los escenarios escritos en cucumber
-├── test/resources/features        # Test de los escenarios escritos en cucumber
+Estructura del proyecto:
+src/test/java/steps/APISteps       # Contiene los steps excecutions y validaciones de los escenarios escritos en cucumber
+src/test/resources/features        # Contiene los test de los escenarios escritos en cucumber
 
 
 ## Cómo ejecutar los tests en IntelliJ IDEA
@@ -35,3 +34,10 @@ src/
 - Navega a la clase TestsBDD en src\test\java\test\java\tests\TestsBDD.java
 - Haz clic derecho sobre la clase y selecciona Run 'TestsBDD'.
 - Esto ejecutará todos los tests definidos en los archivos .feature dentro de src/test/resources/features.
+
+4. Generar y ver el reporte de Allure
+- En la pestaña de Gradle (ubicada en la parte superior derecha de IntelliJ IDEA), expande Tasks > verification.
+- Haz doble clic en allureServe. Esto generará el reporte de Allure y lo abrirá automáticamente en tu navegador.
+
+## Contacto
+Si tienes preguntas o necesitas soporte, contáctame en luksbreaking@gmail.com
