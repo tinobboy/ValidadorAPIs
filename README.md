@@ -10,6 +10,7 @@ Este es un framework para realizar pruebas de backend desarrollado en **Java** u
 >  **Java 11 JDK**: El framework está desarrollado en Java, por lo que necesitas tener instalado el JDK 11.
 > 
 >  **Gradle 7.6.4 o superior**: Gradle se utiliza para la gestión de dependencias y la construcción del proyecto.
+>  **Plugins**: Cucumber for Java : https://plugins.jetbrains.com/plugin/7212-cucumber-for-java
 
 
 >[!NOTE]
