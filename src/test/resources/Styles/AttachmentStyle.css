@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    width: 100%;
+    max-width: 100%;
+    table-layout: auto;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #575757;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}

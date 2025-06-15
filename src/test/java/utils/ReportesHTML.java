@@ -14,7 +14,7 @@ public class ReportesHTML {
     public ReportesHTML imprimirResultadoAllure(List<String> nombresDePersonajes) {
         List<HashMap<String, Object>> lista = crearLista(nombresDePersonajes);
         String html = Attatchments.convertirAHTML(lista);
-        Allure.addAttachment("Consulta", "text/html", new ByteArrayInputStream(html.getBytes(StandardCharsets.UTF_8)), ".html");
+        Allure.addAttachment("Resultado", "text/html", new ByteArrayInputStream(html.getBytes(StandardCharsets.UTF_8)), ".html");
         return this;
     }
 
