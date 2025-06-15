@@ -4,7 +4,13 @@ import com.fasterxml.jackson.databind.JsonNode;
 import enums.DatosPersonajes;
 import utils.ValidadorPostcondicion;
 
-public class ValidarCaracteres {
+public class ValidarMain {
+
+    /** Se validan los personajes de la respuesta del servicio en base a los datos guardados en el enum DatosPersonajes
+     *
+     * @param body
+     * @param id
+     */
 
     public void validar(JsonNode body, int id) {
         ValidadorPostcondicion validadorPostcondicion = new ValidadorPostcondicion(body);

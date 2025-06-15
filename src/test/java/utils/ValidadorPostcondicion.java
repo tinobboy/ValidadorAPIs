@@ -14,10 +14,6 @@ public class ValidadorPostcondicion {
         this.node=node;
     }
 
-    public ValidadorPostcondicion(){
-
-    }
-
     @Step("Se valida el campo {campo} con valor: {valorEsperado}")
     public ValidadorPostcondicion compararCampoInt(String campo,int valorEsperado) {
         validarExistenciaCampoInt(campo);

@@ -8,20 +8,20 @@ import io.cucumber.java.Before;
 import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
-import io.cucumber.java.sl.In;
-import io.qameta.allure.Allure;
 import io.restassured.http.ContentType;
+
 import org.junit.Assume;
 import steps.BaseSteps;
 import steps.RequestSteps;
+import utils.ReportesHTML;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class RickAndMortySteps {
+public class Main {
 
-    private static BaseSteps step = new BaseSteps();
+    private static final BaseSteps step = new BaseSteps();
     private ResponseSpecification respuestaActual,respuestaActualCaracteres;
     private RequestSpecification requestSpecification;
     private int id;
@@ -38,23 +38,23 @@ public class RickAndMortySteps {
         switch (personaje) {
             case "Rick Sanchez":
                 id = DatosPersonajes.Personajes.Rick_Sanchez.getId();
-                requestSpecification.setPaths("/character/" + id + "");
+                requestSpecification.setPaths("/character/" + id);
                 break;
             case "Morty Smith":
                 id = DatosPersonajes.Personajes.Morty_Smith.getId();
-                requestSpecification.setPaths("/character/" + id + "");
+                requestSpecification.setPaths("/character/" + id);
                 break;
             case "Summer Smith":
                 id = DatosPersonajes.Personajes.Summer_Smith.getId();
-                requestSpecification.setPaths("/character/" + id + "");
+                requestSpecification.setPaths("/character/" + id);
                 break;
             case "Beth Smith":
                 id = DatosPersonajes.Personajes.Beth_Smith.getId();
-                requestSpecification.setPaths("/character/" + id + "");
+                requestSpecification.setPaths("/character/" + id);
                 break;
             case "Jerry Smith":
                 id = DatosPersonajes.Personajes.Jerry_Smith.getId();
-                requestSpecification.setPaths("/character/" + id + "");
+                requestSpecification.setPaths("/character/" + id);
                 break;
         }
 
@@ -67,8 +67,8 @@ public class RickAndMortySteps {
 
     @Dado("^la ejecucion de la api de personajes y comparando contra la del episodio (.*)$")
     public void laEjecucionDeLaApiDePersonajesYComparandoContraLaDelEpisodioNroEpisodio(String nroEpisodio) {
-        personajes = ejecutarApiCaracteres();
-        requestSpecification.setPaths("/episode/"+nroEpisodio+"");
+        personajes = ejecutarApiPersonajes();
+        requestSpecification.setPaths("/episode/"+nroEpisodio);
     }
 
     @Cuando("^se ejecuta el request$")
@@ -79,7 +79,7 @@ public class RickAndMortySteps {
     @Entonces("^el resultado fue exitoso$")
     public void elResultadoFueExitoso() {
         step.validateResponseCodeyContentType(respuestaActual, 200, ContentType.JSON);
-        new ValidarCaracteres().validar(respuestaActual.getBody(), id);
+        new ValidarMain().validar(respuestaActual.getBody(), id);
     }
 
     @Entonces("^se obtiene los personajes que aparecieron en el episodio 1 y se imprime el nombre$")
@@ -110,8 +110,7 @@ public class RickAndMortySteps {
                 nombresDePersonajes.add(DatosPersonajes.Personajes.Canklanker_Thom.getName());
             }
         }
-        Allure.addAttachment("Los Personajes que se encuentran en el episodio 1 son :", String.valueOf(nombresDePersonajes));
-        System.out.println(nombresDePersonajes);
+        new ReportesHTML().imprimirResultadoAllure(nombresDePersonajes);
     }
 
     @Entonces("se obtiene los nombres de personajes que aparecieron")
@@ -133,19 +132,16 @@ public class RickAndMortySteps {
                 nombresDePersonajes.add(String.valueOf(personaje.get("name")));
             }
         }
-        System.out.println("Personajes que aparecieron en el episodio:");
-        for (String nombre : nombresDePersonajes) {
-            System.out.println(nombre);
-            Allure.addAttachment("Los Personajes que se encuentran en el episodio 1 son :", String.valueOf(nombre));
-        }
 
         Assume.assumeFalse("No se encontraron personajes en el episodio",nombresDePersonajes.isEmpty());
+        new ReportesHTML().imprimirResultadoAllure(nombresDePersonajes);
+
     }
 
     /**
      * Metodo que ejecuta api de los caracteres y devuelve una lista de hashmap string object
      */
-    public List<HashMap<String, Object>> ejecutarApiCaracteres(){
+    public List<HashMap<String, Object>> ejecutarApiPersonajes(){
 
         requestSpecification.setPaths("/character");
         respuestaActualCaracteres = new RequestSteps().executeRequest(requestSpecification);

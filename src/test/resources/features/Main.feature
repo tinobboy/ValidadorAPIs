@@ -1,21 +1,7 @@
 #language: es
 Característica: Rick and Morty Test
 
-  @test
-  Esquema del escenario: Se prueba el funcionamiento de una API del personaje <personaje>
-    Dado una url completa del personaje <personaje>
-    Cuando se ejecuta el request
-    Entonces el resultado fue exitoso
-
-    Ejemplos:
-      | personaje    |
-      | Rick Sanchez |
-      | Morty Smith  |
-      | Summer Smith |
-      | Beth Smith   |
-      | Jerry Smith  |
-
-  @test
+  @smoke
   Escenario: Se obtiene los personajes del episodio 1
     Dado la api del episodio 1
     Cuando se ejecuta el request
@@ -29,6 +15,10 @@ Característica: Rick and Morty Test
     Ejemplos:
     |nroEpisodio|
     | 1         |
+    | 2         |
     | 3         |
+    | 4         |
+    | 5         |
+    | 6         |
     | 7         |
 
