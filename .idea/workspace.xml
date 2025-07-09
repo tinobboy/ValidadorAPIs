@@ -4,7 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="modifico archivo gradle.yml" />
+    <list default="true" id="6a8b9624-66b2-4191-933f-70f1036561e5" name="Default Changelist" comment="* Modifico descripcion resultado&#10;* Agrego style .css">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/04bfef41-8de1-4fe2-bc04-8879d7a6536c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/069911e0-21ed-485d-a8f4-29f11cca654c-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/323a6a11-4aeb-40c0-8909-6ab503bf62f9-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/3fd0a7ed-2232-4470-bba0-93f406d02757-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/592139cb-f0df-49f8-9ebf-fe2a6cb32eab-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/d78277d2-7c34-45a7-9db7-3eecda7b714c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/df64fc75-94b0-4685-a030-8a320d17cdfb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f6649058-f2d1-43b3-b232-eb0416a1c8b8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/allure-results/f93b9600-f6ed-41e7-9f96-b31befbc68cf-attachment" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Configuracion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Configuracion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Proyecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Proyecto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Servicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/configuraciones/Servicio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/HTTPCodes$Codes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/HTTPCodes$Codes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/HTTPCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/HTTPCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/RequestContentType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/RequestContentType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/RequestHeaders.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/RequestHeaders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/RequestMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/RequestMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/constants/TipoError.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/constants/TipoError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/RequestSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/RequestSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/ResponseSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/ResponseSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/SoapRequestSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/SoapRequestSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/SoapResponseSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/SoapResponseSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/AllureHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/AllureHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/ConfigHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/ConfigHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/ConfiguracionException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/ConfiguracionException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/JsonNodeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/JsonNodeHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/LoggerHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/LoggerHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/MapperHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/MapperHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/NodeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/NodeHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/ObjectMapperHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/ObjectMapperHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/PropertiesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/PropertiesHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/StreamHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/StreamHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/StringHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/StringHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/TipoDescripcionParametros.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/TipoDescripcionParametros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/helpers/TipoParametro.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/helpers/TipoParametro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/listeners/StepReporterEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/listeners/StepReporterEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/listeners/TestReporterEventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/listeners/TestReporterEventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/readers/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/readers/PropertiesReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/steps/RequestSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/steps/RequestSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/enums/DatosPersonajes$Personajes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/enums/DatosPersonajes$Personajes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/enums/DatosPersonajes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/enums/DatosPersonajes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/JsonHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/JsonHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/ObjectMapperHelperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/ObjectMapperHelperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/RequestSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/RequestSpecificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/RequestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/RequestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/ResponseSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/ResponseSpecificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/SoapRequestSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/SoapRequestSpecificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/framework/SoapResponseSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/framework/SoapResponseSpecificationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/APISteps/RickAndMortySteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/APISteps/ValidarCaracteres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/BaseSteps$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/BaseSteps$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/steps/BaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/steps/BaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/java/tests/TestsBDD.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/test/java/tests/TestsBDD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/FechaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/FechaUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/GeneradorParametros$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/GeneradorParametros$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/GeneradorParametros.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/GeneradorParametros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/MathUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/MathUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/ValidadorPostcondicion.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/ValidadorPostcondicion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/Rick#20and#20Morty#20Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/classes/test.java.tests.TestsBDD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runTestsBDD/packages/test.java.tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/features/RickAndMorty.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/xmldata/test/calculator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-Rick#20and#20Morty#20Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-test.java.tests.TestsBDD.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/TEST-test.java.tests.TestsBDD.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runTestsBDD/binary/results.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,11 +115,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="API" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="API" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -50,6 +132,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tinobboy&quot;
+  }
+}</component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -58,20 +146,33 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tinobboy/ValidadorAPIs.git&quot;,
+    &quot;accountId&quot;: &quot;3df97ba0-c73e-4e02-aa38-d5f5875a817f&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sOaZEbCr35zi0ZQy1091ZVoJsZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.TestsBDD.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
   <component name="RunManager" selected="Gradle.TestsBDD">
     <configuration name="TestsBDD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -92,6 +193,7 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ValidadorAPIs [allureServe]" type="GradleRunConfiguration" factoryName="Gradle">
@@ -113,8 +215,13 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.ValidadorAPIs [allureServe]" />
+      <item itemvalue="Gradle.TestsBDD" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.TestsBDD" />
@@ -160,7 +267,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="* Modifico nombre de clases" />

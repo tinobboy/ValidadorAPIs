@@ -5,7 +5,6 @@ gradle-app.setting
 
 # Ignorar archivos de construcción y compilación
 build/
-!gradle-wrapper.jar
 
 # Ignorar archivos de resultados de pruebas
 build/allure-results/
