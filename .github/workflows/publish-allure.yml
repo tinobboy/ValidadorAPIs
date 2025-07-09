@@ -1,0 +1,34 @@
+name: Publish Allure Report
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: 17
+
+      - name: Grant execute permissions to gradlew
+        run: chmod +x gradlew
+
+      - name: Run tests and generate Allure report
+        run: ./gradlew clean test allureReport
+
+      - name: Deploy Allure report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/reports/allure-report
+          publish_branch: gh-pages
+          force_orphan: true  # Opcional: borra historial de gh-pages para ahorrar espacio
